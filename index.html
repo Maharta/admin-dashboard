@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div role="search" class="top-left">
+          <img src="assets/icons/magnify.svg" class="icon" alt="search icon" />
+          <input
+            type="search"
+            name="search"
+            id="search"
+            aria-label="search something here"
+          />
+        </div>
+        <div class="top-right">
+          <img
+            class="icon"
+            src="assets/icons/bell-ring-outline.svg"
+            alt="notification bell"
+          />
+          <div class="circle profile"></div>
+          <span class="username">Arthur Morgan</span>
+        </div>
+        <div class="bottom-left">
+          <div class="circle profile-picture"></div>
+          <p>Hi there,</p>
+          <p>Maharta Pamuji (@maharta_yb)</p>
+        </div>
+        <div class="bottom-right">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </header>
+      <nav class="nav">
+        <div class="title_container">
+          <img src="assets/icons/view-dashboard.png" alt="dashboard" />
+          <h1>Dashboard</h1>
+        </div>
+        <ul>
+          <li role="button">
+            <img class="icon" src="assets/icons/home.svg" alt="home" />
+            <span>Home</span>
+          </li>
+          <li role="button">
+            <img
+              src="assets/icons/account-details.svg"
+              alt="profile"
+              class="icon"
+            />
+            <span>Profile</span>
+          </li>
+          <li role="button">
+            <img
+              src="assets/icons/message-reply.svg"
+              alt="messages"
+              class="icon"
+            />
+            <span>Messages</span>
+          </li>
+          <li role="button">
+            <img src="assets/icons/history.svg" alt="history" class="icon" />
+            <span>History</span>
+          </li>
+          <li role="button">
+            <img
+              src="assets/icons/file-document-multiple-outline.svg"
+              alt="tasks"
+              class="icon"
+            />
+            <span>Tasks</span>
+          </li>
+          <li role="button">
+            <img
+              src="assets/icons/account-group.svg"
+              alt="Communities"
+              class="icon"
+            />
+            <span>Communities</span>
+          </li>
+        </ul>
+        <ul>
+          <li role="button">
+            <img src="assets/icons/cog.svg" alt="Settings" class="icon" />
+            <span>Settings</span>
+          </li>
+          <li role="button">
+            <img
+              src="assets/icons/face-agent.svg"
+              alt="Supports"
+              class="icon"
+            />
+            <span>Supports</span>
+          </li>
+          <li role="button">
+            <img
+              src="assets/icons/shield-check.svg"
+              alt="Privacy"
+              class="icon"
+            />
+            <span>Privacy</span>
+          </li>
+        </ul>
+      </nav>
+
+      <main></main>
+    </div>
+  </body>
+</html>
