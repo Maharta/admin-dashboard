@@ -333,22 +333,22 @@ main h2 {
 }
 
 .trending_container ul li:nth-child(1) .circle.profile {
-  background: url("/assets/profiles/monkey.jpeg") no-repeat center;
+  background: url("assets/profiles/monkey.jpeg") no-repeat center;
   background-size: 60px;
   object-fit: cover;
 }
 .trending_container ul li:nth-child(2) .circle.profile {
-  background: url("/assets/profiles/monkey3.jpeg") no-repeat center;
+  background: url("assets/profiles/monkey3.jpeg") no-repeat center;
   background-size: 60px;
   object-fit: cover;
 }
 .trending_container ul li:nth-child(3) .circle.profile {
-  background: url("/assets/profiles/monkey4.jpeg") no-repeat center;
+  background: url("assets/profiles/monkey4.jpeg") no-repeat center;
   background-size: 60px;
   object-fit: cover;
 }
 .trending_container ul li:nth-child(4) .circle.profile {
-  background: url("/assets/profiles/monkey5.jpeg") no-repeat center;
+  background: url("assets/profiles/monkey5.jpeg") no-repeat center;
   background-size: 60px;
   object-fit: cover;
 }
